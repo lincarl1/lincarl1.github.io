@@ -1,0 +1,121 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Oswald:wght@600&family=Passion+One:wght@700&display=swap');
+
+:root {
+    --Abril: "Abril+Fatface", cursive;
+    --Bangers: "Bangers", cursive;
+    --Oswald: "Oswald:wght@600", sans-serif;
+    --Passion_One: "Passion+One:wght@700", cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+footer {
+    background-color: aqua;
+}
+
+header {
+    background: url(images/header-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    font-family: var(--Bangers);
+    position: relative;  
+}
+
+header .navbar-brand {
+    padding-left: 0.5em;
+}
+
+header a {
+    font-size: x-large;
+    text-emphasis-color: #FFFFFC;
+}
+
+header #title-element {
+    padding-top: 12.5%;
+}
+
+header #navbarNav {
+    padding-right: 2em;
+}
+
+header .nav-item {
+    padding: 0.3em;
+}
+
+header .nav-link {
+    color: white;
+    font-family: var(--Oswald);
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header h1 {
+    font-size: 250px;
+    color: white;
+}
+
+/* Main */
+main {
+    height: 100%;
+    background-color: #83C9F4;
+    background-blend-mode: lighten;
+}
+
+/* Section #1 */
+.section-1 {
+    height: 100%;
+    padding: 5vmin 0;
+    font-family: var(--Passion_One);
+}
+
+.section-1 .row .col-md-6 .profilepic img {
+    opacity: 0.9;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-family: var(--Abril);
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-family: var(--Oswald);
+}
+
+/* Footer */
+footer {
+    background-color: #04080F;
+    color: #FFFFFC;
+}
+
+footer #footer-title {
+    padding-left: 2em;
+}
+
+footer #footer-title p {
+    font-size: small;
+}
+
+footer #footer-element .row .col-sm-6 .row {
+    padding-top: 0.5em;
+}
+
+footer h2 {
+    padding-top: .3em;
+}
+
+footer #footer-element .row .col-sm-6 .row .col-sm-8 a {
+    padding: 0.2em;
+}
