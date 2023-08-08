@@ -1,12 +1,12 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Oswald:wght@600&family=Passion+One:wght@700&display=swap&family=Lobster');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Oswald:wght@600&family=Passion+One:wght@700&display=swap&family=Russo+One');
 
 :root {
     --Abril: "Abril+Fatface", cursive;
     --Bangers: "Bangers", cursive;
     --Oswald: "Oswald:wght@600", sans-serif;
     --Passion_One: "Passion+One:wght@700", cursive;
-    --Lobster: "Lobster";
+    --Russo_One: "Russo+One";
 }
 
 * {
@@ -29,7 +29,7 @@ main {
 }
 
 h1 {
-    font-family: var(--Lobster);
+    font-family: var(--Russo_One);
 }
 
 h2 {

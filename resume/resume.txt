@@ -1,0 +1,172 @@
+%-------------------------
+% Resume in Latex
+% Author : Carl Lin
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Carl Lin} & Email: \href{mailto:carllin823@yahoo.com}{carllin823@yahoo.com}\\
+  \textbf{Software Engineer} & Mobile: 407-314-2701 \\
+  \href{https://lincarl1.github.io}{https://lincarl1.github.io/} & Orlando, FL \\
+\end{tabular*}
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Python, Java, Javascript, SQL}
+   }
+   \item {
+    \textbf{Technologies}{: AWS, Git, Apache Airflow, React, Angular, Maven, Springboot, Tableau, MySQL, Vertica, Docker, Jenkins, Splunk}
+   }
+ \resumeSubHeadingListEnd
+%--------------------END OF PROGRAMMING SKILLS-----------------------%
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {ADP}{Atlanta, GA}
+      {Application Developer}{Aug 2021 - Aug 2023}
+      \resumeItemListStart
+        \resumeItem{Apache Airflow, Python}
+          {Successfully integrated Amazon Managed Apache Airflow on AWS to automate tasks such as ETL pipelines to generate reports.}
+        \resumeItem{SQL}
+          {Built ETL models to enhance business processes and automate data extraction for over 50+ million records.}
+        \resumeItem{Tableau}
+          {Constructed various feature dashboards (Enrollments, EWA, Savings Envelopes, etc.) on Tableau to help the business make more informed decisions.}
+        \resumeItem{Java, Springboot, Splunk}
+          {Designed enhancements and updates for subsystems of end-user applications software running on local, networked and Internet-based platforms.}
+        \resumeItem{AWS, Jenkins}
+          {Led production code deployments for new features such as changes in infrastructure and feature development.}
+        \resumeItem{Git, JIRA}
+          {Reviewed project specifications and designed technology solutions that met or exceeded performance expectations.}
+        \resumeItem{Confluence}
+          {Implemented new documentation that future engineers can use when developing new features.}
+        \resumeItem{Agile}
+          {Attended agile sprint meetings for updates on new features of products along with mentoring new junior engineers.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Theissen Training Systems}{Gainesville, FL}
+      {Software Engineering Intern}{Jun 2020 - Jul 2021}
+      \resumeItemListStart
+        \resumeItem{Python, Javascript}
+          {Built internal tools using Python and Javascript - W2UI Library - to assist executives into making more data informed decisions.}
+        \resumeItem{Infrastructure}
+          {Set up the Git Lab server on the local network, collaborated with fellow engineers on the creation our database, and implemented/introduced Docker.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-------------END OF EXPERIENCE---------------%
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+    {SmallTalks}{}
+    {Full Stack Developer}{}
+    \resumeItemListStart
+      \resumeItem{Description}
+       {Collaborated with a team of three other engineers. Implemented Admin Functionality such as post management and user validation.}
+      \resumeItem{Tech Stack}
+       {Utilized ReactJS as the front-end technology, socket.io communication protocol between front-end and back-end, a typescript server, and MongoDB.}
+    \resumeItemListEnd
+       
+    \resumeSubheading
+    {Petrees' Prints}{}
+    {Scrum Master and Front-End Developer}{}
+    \resumeItemListStart
+      \resumeItem{Description}
+       {Led team meetings - Dailies, Groomings, Retrospectives. Worked on various different features in Angular.}
+      \resumeItem{Tech Stack}
+       {Utilized the MEAN stack to help flush out our project to the stack holders.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+% --------- END OF PROJECTS -------------- %
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Florida}{Gainesville, FL}
+      {Bachelor of Science in Computer Science}{July 2017 -- May 2021}
+  \resumeSubHeadingListEnd
+%---------------END OF EDUCATION-------------%
+
+\end{document}
